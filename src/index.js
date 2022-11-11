@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import AppLuckyGrid from './LuckyGrid';
 import reportWebVitals from './reportWebVitals';
+import background from "./asserts/bg.png";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
+  <React.StrictMode style={{display: 'flex', width: '100ww', alignItems: 'center', justifyContent: 'center'}}>
+    <AppLuckyGrid /> 
   </React.StrictMode>
 );
 
