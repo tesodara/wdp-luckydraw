@@ -82,13 +82,13 @@ export default function AppLuckyGrid() {
   };
 
 
-  const [prizes, setPrizes] = useState([
+  const [prizes] = useState([
     { x: 0, y: 0, imgs: [prizeImgHat], range: 1 },
     { x: 1, y: 0, imgs: [prizeImgMask], range: 1 },
     { x: 2, y: 0, imgs: [prizeImgShoes], range: 1 },
-    { x: 2, y: 1, imgs: [prizeImgTiger] , range: 1 },
-    { x: 2, y: 2, imgs: [prizeImgTshirt] , range: 1 },
-    { x: 1, y: 2, imgs: [prizeImgThankYou] , range: 60},
+    { x: 2, y: 1, imgs: [prizeImgTiger] , range: 3 },
+    { x: 2, y: 2, imgs: [prizeImgTshirt] , range: 2 },
+    { x: 1, y: 2, imgs: [prizeImgThankYou] , range: 40},
     { x: 0, y: 2, imgs: [prizeImgWristband], range: 40 },
     { x: 0, y: 1, imgs: [prizeImgTryAgain], range: 50 },
   ])
