@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/wdp-luckydraw/static/css/main.e6c13ad2.css",
+    "main.js": "/wdp-luckydraw/static/js/main.a4c81314.js",
+    "static/js/787.a290ddeb.chunk.js": "/wdp-luckydraw/static/js/787.a290ddeb.chunk.js",
+    "static/media/bg.png": "/wdp-luckydraw/static/media/bg.b50ae6cd64c79dc8c6af.png",
+    "static/media/button.png": "/wdp-luckydraw/static/media/button.92a0839b12057be09ac5.png",
+    "static/media/prize-shoes.png": "/wdp-luckydraw/static/media/prize-shoes.db8f716dfbb248d12317.png",
+    "static/media/prize-hat.png": "/wdp-luckydraw/static/media/prize-hat.49e9085261927bbe4503.png",
+    "static/media/prize-thankyou.png": "/wdp-luckydraw/static/media/prize-thankyou.d3267085adf8c8874c93.png",
+    "static/media/prize-mask.png": "/wdp-luckydraw/static/media/prize-mask.ccc11209f9d0b83061ae.png",
+    "static/media/prize-tiger.png": "/wdp-luckydraw/static/media/prize-tiger.3d8336716c68acc26ca5.png",
+    "static/media/prize-tshirt.png": "/wdp-luckydraw/static/media/prize-tshirt.41915a5973241a42f1d3.png",
+    "static/media/prize-try-again.png": "/wdp-luckydraw/static/media/prize-try-again.d43a39f2a5607e1f73e4.png",
+    "static/media/prize-wristband.png": "/wdp-luckydraw/static/media/prize-wristband.3566f711fd82ea4ee45e.png",
+    "index.html": "/wdp-luckydraw/index.html",
+    "main.e6c13ad2.css.map": "/wdp-luckydraw/static/css/main.e6c13ad2.css.map",
+    "main.a4c81314.js.map": "/wdp-luckydraw/static/js/main.a4c81314.js.map",
+    "787.a290ddeb.chunk.js.map": "/wdp-luckydraw/static/js/787.a290ddeb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.a4c81314.js"
+  ]
+}
