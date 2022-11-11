@@ -2,6 +2,7 @@
   "name": "wdp-lucky-draw",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tesodara.github.io/wdp-luckydraw",
   "dependencies": {
     "@lucky-canvas/react": "^0.1.13",
     "@testing-library/jest-dom": "^5.16.5",

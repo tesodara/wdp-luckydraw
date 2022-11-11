@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react'
-import { LuckyWheel, LuckyGrid } from '@lucky-canvas/react'
+import {LuckyGrid } from '@lucky-canvas/react'
+
 
 export default function AppLuckyGrid() {
   const [blocks] = useState([
@@ -81,15 +82,15 @@ export default function AppLuckyGrid() {
   };
 
 
-  const [prizes] = useState([
-    { x: 0, y: 0, imgs: [prizeImgHat], range: 10 },
-    { x: 1, y: 0, imgs: [prizeImgMask], range: 3 },
-    { x: 2, y: 0, imgs: [prizeImgShoes], range: 4 },
-    { x: 2, y: 1, imgs: [prizeImgTiger] , range: 3},
-    { x: 2, y: 2, imgs: [prizeImgTshirt] , range: 5},
-    { x: 1, y: 2, imgs: [prizeImgThankYou] , range: 8},
-    { x: 0, y: 2, imgs: [prizeImgWristband], range: 9 },
-    { x: 0, y: 1, imgs: [prizeImgTryAgain], range: 100 },
+  const [prizes, setPrizes] = useState([
+    { x: 0, y: 0, imgs: [prizeImgHat], range: 1 },
+    { x: 1, y: 0, imgs: [prizeImgMask], range: 1 },
+    { x: 2, y: 0, imgs: [prizeImgShoes], range: 1 },
+    { x: 2, y: 1, imgs: [prizeImgTiger] , range: 1 },
+    { x: 2, y: 2, imgs: [prizeImgTshirt] , range: 1 },
+    { x: 1, y: 2, imgs: [prizeImgThankYou] , range: 60},
+    { x: 0, y: 2, imgs: [prizeImgWristband], range: 40 },
+    { x: 0, y: 1, imgs: [prizeImgTryAgain], range: 50 },
   ])
   const [buttons] = useState([
     {
@@ -126,15 +127,18 @@ export default function AppLuckyGrid() {
       onStart={() => {
         myLucky.current.play()
         setTimeout(() => {
-          const index = Math.random() * 8 >> 0
           myLucky.current.stop()
         }, 2500)
       }}
       onEnd={prize => {
+        
         setTimeout(function () {
           setAnnouchWinItem(true);
           setPrizeItem(prize.imgs[0]);
         }, 800);
+
+        
+        
       }}
     /> : winnerView()}
 
