@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/wdp-luckydraw/static/css/main.e6c13ad2.css",
-    "main.js": "/wdp-luckydraw/static/js/main.60360dce.js",
+    "main.js": "/wdp-luckydraw/static/js/main.544d006f.js",
     "static/js/787.a290ddeb.chunk.js": "/wdp-luckydraw/static/js/787.a290ddeb.chunk.js",
     "static/media/button.png": "/wdp-luckydraw/static/media/button.92a0839b12057be09ac5.png",
     "static/media/prize-shoes.png": "/wdp-luckydraw/static/media/prize-shoes.db8f716dfbb248d12317.png",
@@ -14,11 +14,11 @@
     "static/media/prize-wristband.png": "/wdp-luckydraw/static/media/prize-wristband.3566f711fd82ea4ee45e.png",
     "index.html": "/wdp-luckydraw/index.html",
     "main.e6c13ad2.css.map": "/wdp-luckydraw/static/css/main.e6c13ad2.css.map",
-    "main.60360dce.js.map": "/wdp-luckydraw/static/js/main.60360dce.js.map",
+    "main.544d006f.js.map": "/wdp-luckydraw/static/js/main.544d006f.js.map",
     "787.a290ddeb.chunk.js.map": "/wdp-luckydraw/static/js/787.a290ddeb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.60360dce.js"
+    "static/js/main.544d006f.js"
   ]
 }
