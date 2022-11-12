@@ -92,7 +92,7 @@ export default function AppLuckyGrid() {
     { x: 2, y: 2, imgs: [prizeImgbklanyard] , range: 2 },
     { x: 1, y: 2, imgs: [prizeImgt1] , range: 8},
     { x: 0, y: 2, imgs: [prizeImgWristband], range: 35 },
-    { x: 0, y: 1, imgs: [prizeImgt2], range: 10 },
+    { x: 0, y: 1, imgs: [prizeImgt2], range: 4 },
   ])
   const [buttons] = useState([
     {
