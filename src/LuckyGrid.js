@@ -32,35 +32,12 @@ export default function AppLuckyGrid() {
       }}>Thank You for visiting us</button>
     </div>
   }
-  const prizeImgHat = {
-    src: require('./asserts/prize-hat.png'),
-    width: '180px',
-    height: '180px',
-  };
 
   const prizeImgMask = {
     src: require('./asserts/prize-mask.png'),
     width: '180px',
     height: '180px',
     range: 10,
-  };
-
-  const prizeImgShoes = {
-    src: require('./asserts/prize-shoes.png'),
-    width: '180px',
-    height: '180px',
-  }
-
-  const prizeImgTiger = {
-    src: require('./asserts/prize-tiger.png'),
-    width: '180px',
-    height: '180px',
-  };
-
-  const prizeImgTshirt = {
-    src: require('./asserts/prize-tshirt.png'),
-    width: '180px',
-    height: '180px',
   };
 
   const prizeImgWristband = {
@@ -75,22 +52,47 @@ export default function AppLuckyGrid() {
     height: '180px',
   };
 
-  const prizeImgTryAgain = {
-    src: require('./asserts/prize-try-again.png'),
+
+  const prizeImgt1 = {
+    src: require('./asserts/prize-t1.png'),
+    width: '180px',
+    height: '180px',
+  };
+
+  const prizeImgt2 = {
+    src: require('./asserts/prize-t2.png'),
+    width: '180px',
+    height: '180px',
+  };
+
+  const prizeImgt3 = {
+    src: require('./asserts/prize-t3.png'),
+    width: '180px',
+    height: '180px',
+  };
+
+  const prizeImgbklanyard = {
+    src: require('./asserts/prize-bklanyard.png'),
+    width: '180px',
+    height: '180px',
+  };
+
+  const prizeImgTicketTed = {
+    src: require('./asserts/prize-ticketted.png'),
     width: '180px',
     height: '180px',
   };
 
 
   const [prizes] = useState([
-    { x: 0, y: 0, imgs: [prizeImgHat], range: 0 },
-    { x: 1, y: 0, imgs: [prizeImgMask], range: 0 },
-    { x: 2, y: 0, imgs: [prizeImgShoes], range: 1 },
-    { x: 2, y: 1, imgs: [prizeImgTiger] , range: 4 },
-    { x: 2, y: 2, imgs: [prizeImgTshirt] , range: 0 },
-    { x: 1, y: 2, imgs: [prizeImgThankYou] , range: 40},
-    { x: 0, y: 2, imgs: [prizeImgWristband], range: 40 },
-    { x: 0, y: 1, imgs: [prizeImgTryAgain], range: 50 },
+    { x: 0, y: 0, imgs: [prizeImgThankYou], range: 40 },
+    { x: 1, y: 0, imgs: [prizeImgMask], range: 1 },
+    { x: 2, y: 0, imgs: [prizeImgt3], range: 6 },
+    { x: 2, y: 1, imgs: [prizeImgTicketTed] , range: 2 },
+    { x: 2, y: 2, imgs: [prizeImgbklanyard] , range: 2 },
+    { x: 1, y: 2, imgs: [prizeImgt1] , range: 8},
+    { x: 0, y: 2, imgs: [prizeImgWristband], range: 35 },
+    { x: 0, y: 1, imgs: [prizeImgt2], range: 10 },
   ])
   const [buttons] = useState([
     {
